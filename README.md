@@ -1,7 +1,7 @@
 # Proyecto para el curso de AzureDevOps
 Proyecto usado para realizar la publicación a Azure a través de Azure DevOps.
 
-## ¿Qué es el proyecto?
+## Proyecto
 Un proyecto bastante simple que muestra un json en la ruta principal que nos indica el entorno donde se esta publicando el proyecto (STAGING, PRODUCTION, ETC) y la fecha actual del release.
 
 ```
@@ -13,7 +13,7 @@ Un proyecto bastante simple que muestra un json en la ruta principal que nos ind
 
 Adicionalmente, se han creado 2 pruebas unitarias para corroborarlas a través de la integración continua.
 
-## Comando usados durante el curso
+## Comando usados 
 ```
 az login
 
@@ -38,4 +38,3 @@ az aks browse --resource-group stagaksdemokodoti --name StagWinAKS
 az aks browse --resource-group prodaksdemokodoti --name ProdWinAKS
 ```
 
-Adicionalmente, se han creado 2 pruebas unitarias para corroborarlas a través de la integración continua.
