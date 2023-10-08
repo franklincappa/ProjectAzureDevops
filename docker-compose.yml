@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   kodotiazuredevops.api:
-    image: ${DOCKER_REGISTRY-}kodotiazuredevopsapi
+    image: ${DOCKER_REGISTRY-}azuredevopsapi
     build:
       context: .
-      dockerfile: src\KodotiAzureDevOps.Api\Dockerfile
+      dockerfile: src\AzureDevOps.Api\Dockerfile
